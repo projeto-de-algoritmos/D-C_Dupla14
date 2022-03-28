@@ -11,7 +11,6 @@ def skyline(predios):
    
     return merge(L, R)
 
-
 def merge(L, R):
     lista = []
     i = 0  
@@ -39,3 +38,18 @@ def merge(L, R):
         j += 1
 
     return lista
+
+def addPonto(lista, x, y):
+    if lista and lista[-1][0] == x:
+        lista[-1][1] = y
+        return
+    if lista and lista[-1][1] == y:
+        return
+    lista.append([x, y])
+
+
+predios = [[2,9,10],[3,7,15],[5,12,12],[15,20,10],[19,24,8]]
+# predios = [[0,2,3],[2,5,3]]
+# predios = [[1,5,7],[3,6,12],[7,11,15]]
+
+print(skyline(predios))
