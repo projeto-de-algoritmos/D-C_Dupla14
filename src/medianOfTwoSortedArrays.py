@@ -24,10 +24,8 @@ def medianSortedArrays(nums1, nums2):
 
 nums1 = [1,3]
 nums2 = [2]
-
 # nums1 = [1,2]
 # nums2 = [3,4]
-
 # nums1 = [1,2,3]
 # nums2 = [4,5,6]
 
