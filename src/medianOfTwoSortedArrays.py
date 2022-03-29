@@ -22,11 +22,11 @@ def medianSortedArrays(nums1, nums2):
             l = particao1 + 1
 
 
-nums1 = [1,3]
-nums2 = [2]
-# nums1 = [1,2]
-# nums2 = [3,4]
+#nums1 = [1,3]
+#nums2 = [2]
+nums1 = [1,2]
+nums2 = [3,4]
 # nums1 = [1,2,3]
 # nums2 = [4,5,6]
-
+ 
 print(medianSortedArrays(nums1, nums2))

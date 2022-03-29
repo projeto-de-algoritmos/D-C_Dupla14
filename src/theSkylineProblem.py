@@ -49,8 +49,8 @@ def addPonto(lista, x, y): # Acrescentando mais pontos na lista
 
 # Casos de teste
 
-predios = [[2,9,10],[3,7,15],[5,12,12],[15,20,10],[19,24,8]]
-# predios = [[0,2,3],[2,5,3]]
+# predios = [[2,9,10],[3,7,15],[5,12,12],[15,20,10],[19,24,8]]
+predios = [[0,2,3],[2,5,3]]
 # predios = [[1,5,7],[3,6,12],[7,11,15]]
 
 print(skyline(predios))

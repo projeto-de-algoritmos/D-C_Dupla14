@@ -47,7 +47,7 @@ def sortarray(nums):
     return nums
 
 # listas
-nums = [5,2,3,1]
-# nums = [5,1,1,2,0,0]
+# nums = [5,2,3,1]
+nums = [5,1,1,2,0,0]
 
 print(sortarray(nums))
